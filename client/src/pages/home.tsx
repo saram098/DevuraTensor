@@ -7,7 +7,8 @@ import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { Mail, Zap, Brain, Network, Twitter, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
-import devuraLogo from "@assets/devura.jpeg_1751043465728.jpg";
+import devuraIcon from "@assets/Group 13_1751044863269.png";
+import devuraText from "@assets/Layer_1_1751044855929.png";
 
 export default function Home() {
   const [email, setEmail] = useState("");
@@ -45,10 +46,10 @@ export default function Home() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                <img src={devuraLogo} alt="Devura Logo" className="w-8 h-8 object-contain" />
+              <div className="w-10 h-10 flex items-center justify-center">
+                <img src={devuraIcon} alt="Devura Icon" className="w-8 h-8 object-contain" />
               </div>
-              <span className="text-xl font-bold">Devura</span>
+              <img src={devuraText} alt="Devura" className="h-8 object-contain" />
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <a href="#about" className="text-devura-light hover:text-devura-cyan transition-colors">About</a>
@@ -61,7 +62,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="min-h-screen relative neural-bg network-pattern flex items-center justify-center">
-        <div className="absolute inset-0 bg-gradient-to-br from-devura-black via-devura-black/90 to-devura-blue/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-devura-black via-devura-black/95 to-devura-blue/10"></div>
         
         {/* Floating Neural Network Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -96,14 +97,14 @@ export default function Home() {
           >
             {/* Logo Display */}
             <div className="mb-8">
-              <div className="w-24 h-24 mx-auto bg-white rounded-2xl flex items-center justify-center mb-6 shadow-2xl shadow-devura-blue/30">
-                <img src={devuraLogo} alt="Devura Logo" className="w-16 h-16 object-contain" />
+              <div className="w-24 h-24 mx-auto flex items-center justify-center mb-6">
+                <img src={devuraIcon} alt="Devura Icon" className="w-20 h-20 object-contain" />
               </div>
             </div>
             
-            <h1 className="text-6xl md:text-8xl font-black mb-6 bg-gradient-to-r from-white via-devura-light to-devura-cyan bg-clip-text text-transparent">
-              DEVURA
-            </h1>
+            <div className="mb-6">
+              <img src={devuraText} alt="DEVURA" className="h-16 md:h-24 mx-auto object-contain" />
+            </div>
             
             <div className="mb-8">
               <p className="text-xl md:text-2xl text-devura-light mb-2">Revolutionary AI Subnet on</p>
@@ -356,10 +357,10 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
-              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                <img src={devuraLogo} alt="Devura Logo" className="w-6 h-6 object-contain" />
+              <div className="w-8 h-8 flex items-center justify-center">
+                <img src={devuraIcon} alt="Devura Icon" className="w-6 h-6 object-contain" />
               </div>
-              <span className="text-lg font-bold">Devura</span>
+              <img src={devuraText} alt="Devura" className="h-6 object-contain" />
             </div>
             
             <div className="text-center md:text-right">

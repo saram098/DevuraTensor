@@ -107,15 +107,15 @@
   
   .neural-bg {
     background-image: 
-      radial-gradient(circle at 20% 80%, hsla(217, 91%, 35%, 0.3) 0%, transparent 50%),
-      radial-gradient(circle at 80% 20%, hsla(217, 91%, 60%, 0.3) 0%, transparent 50%),
-      radial-gradient(circle at 40% 40%, hsla(187, 95%, 43%, 0.2) 0%, transparent 50%);
+      radial-gradient(circle at 20% 80%, hsla(217, 91%, 35%, 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, hsla(217, 91%, 60%, 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 40% 40%, hsla(187, 95%, 43%, 0.1) 0%, transparent 50%);
   }
   
   .glass-effect {
-    background: hsla(210, 11%, 15%, 0.3);
-    backdrop-filter: blur(10px);
-    border: 1px solid hsla(217, 91%, 60%, 0.2);
+    background: hsla(210, 11%, 15%, 0.2);
+    backdrop-filter: blur(5px);
+    border: 1px solid hsla(217, 91%, 60%, 0.1);
   }
   
   .network-pattern {
