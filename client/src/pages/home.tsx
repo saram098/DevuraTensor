@@ -46,9 +46,6 @@ export default function Home() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 flex items-center justify-center">
-                <img src={devuraIcon} alt="Devura Icon" className="w-8 h-8 object-contain" />
-              </div>
               <img src={devuraText} alt="Devura" className="h-8 object-contain" />
             </div>
             <div className="hidden md:flex items-center space-x-6">
@@ -95,12 +92,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            {/* Logo Display */}
-            <div className="mb-8">
-              <div className="w-24 h-24 mx-auto flex items-center justify-center mb-6">
-                <img src={devuraIcon} alt="Devura Icon" className="w-20 h-20 object-contain" />
-              </div>
-            </div>
+            {/* Logo Display - Removed per user request */}
             
             <div className="mb-6">
               <img src={devuraText} alt="DEVURA" className="h-16 md:h-24 mx-auto object-contain" />
@@ -357,9 +349,6 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
-              <div className="w-8 h-8 flex items-center justify-center">
-                <img src={devuraIcon} alt="Devura Icon" className="w-6 h-6 object-contain" />
-              </div>
               <img src={devuraText} alt="Devura" className="h-6 object-contain" />
             </div>
             
