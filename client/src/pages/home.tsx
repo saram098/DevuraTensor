@@ -94,7 +94,7 @@ export default function Home() {
           >
             {/* Logo Display - Removed per user request */}
             
-            <div className="mb-6">
+            <div className="mb-6 mt-8">
               <img src={devuraText} alt="DEVURA" className="h-16 md:h-24 mx-auto object-contain" />
             </div>
             
@@ -155,7 +155,7 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-br from-devura-blue to-devura-cyan rounded-xl flex items-center justify-center mb-6">
                   <Brain className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold mb-4 text-devura-light">Intelligent Mining</h3>
+                <h3 className="text-xl font-bold mb-4 text-white">Intelligent Mining</h3>
                 <p className="text-gray-300">Advanced AI algorithms that optimize mining processes and contribute valuable intelligence to the Bittensor network.</p>
               </CardContent>
             </Card>
@@ -166,7 +166,7 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-br from-devura-cyan to-devura-light rounded-xl flex items-center justify-center mb-6">
                   <Zap className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold mb-4 text-devura-light">TAO Powered</h3>
+                <h3 className="text-xl font-bold mb-4 text-white">TAO Powered</h3>
                 <p className="text-gray-300">Seamlessly integrated with TAO economics, ensuring fair rewards and sustainable growth within the ecosystem.</p>
               </CardContent>
             </Card>
@@ -177,7 +177,7 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-br from-devura-light to-devura-electric rounded-xl flex items-center justify-center mb-6">
                   <Network className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold mb-4 text-devura-light">Decentralized Network</h3>
+                <h3 className="text-xl font-bold mb-4 text-white">Decentralized Network</h3>
                 <p className="text-gray-300">Part of the robust Bittensor ecosystem, contributing to and benefiting from collective machine intelligence.</p>
               </CardContent>
             </Card>
