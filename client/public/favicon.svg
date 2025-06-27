@@ -1,7 +1,7 @@
 <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
   <!-- White background -->
-  <rect width="32" height="32" fill="white" rx="4"/>
+  <rect width="32" height="32" fill="white" rx="3"/>
   
-  <!-- Centered black D logo -->
-  <path d="M10 8 h6 c4 0 8 3 8 8 s-4 8-8 8 h-6 z M13 11 v10 h3 c3 0 5-2 5-5 s-2-5-5-5 z" fill="black"/>
+  <!-- Devura D logo matching your design -->
+  <path d="M8 6 L8 26 L16 26 C22 26 26 22 26 16 C26 10 22 6 16 6 L8 6 Z M12 10 L16 10 C19.5 10 22 12.5 22 16 C22 19.5 19.5 22 16 22 L12 22 L12 10 Z" fill="black"/>
 </svg>
