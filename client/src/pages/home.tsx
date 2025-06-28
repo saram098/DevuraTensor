@@ -293,7 +293,7 @@ export default function Home() {
                       placeholder="Enter your email address" 
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      className="flex-1 border-devura-blue/30 rounded-xl px-6 py-4 text-white placeholder-gray-400 focus:border-devura-cyan focus:ring-2 focus:ring-devura-cyan/20 bg-[#bbbbbb]"
+                      className="flex-1 bg-white border-devura-blue/30 rounded-xl px-6 py-4 text-black placeholder-gray-500 focus:border-devura-cyan focus:ring-2 focus:ring-devura-cyan/20"
                       required
                     />
                     <Button 
