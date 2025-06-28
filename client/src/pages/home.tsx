@@ -56,7 +56,6 @@ export default function Home() {
           </div>
         </div>
       </nav>
-
       {/* Hero Section */}
       <section className="min-h-screen relative neural-bg network-pattern flex items-center justify-center">
         <div className="absolute inset-0 bg-gradient-to-br from-devura-black via-devura-black/95 to-devura-blue/10"></div>
@@ -135,7 +134,6 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-
       {/* About Section */}
       <section id="about" className="py-20 bg-gradient-to-b from-devura-black to-devura-gray">
         <div className="container mx-auto px-6">
@@ -184,7 +182,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Ecosystem Section */}
       <section id="ecosystem" className="py-20 bg-devura-gray neural-bg">
         <div className="container mx-auto px-6">
@@ -192,7 +189,7 @@ export default function Home() {
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
                 Built for the 
-                <span className="bg-gradient-to-r from-devura-cyan to-devura-light bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-devura-cyan to-devura-light bg-clip-text text-[#30cafd]">
                   {" "}Bittensor Ecosystem
                 </span>
               </h2>
@@ -227,7 +224,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Statistics Section */}
       <section className="py-20 bg-devura-black">
         <div className="container mx-auto px-6">
@@ -275,7 +271,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Newsletter Section */}
       <section id="contact" className="py-20 bg-gradient-to-br from-devura-gray to-devura-black">
         <div className="container mx-auto px-6">
@@ -343,7 +338,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Footer */}
       <footer className="py-12 bg-devura-black border-t border-devura-gray">
         <div className="container mx-auto px-6">
